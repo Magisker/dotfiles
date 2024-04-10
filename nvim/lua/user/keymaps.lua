@@ -177,6 +177,9 @@ nnoremap("<leader>co", ":copen<cr>zz")
 -- Close the qflist
 nnoremap("<leader>cc", ":cclose<cr>zz")
 
+-- Open LazyGit
+nnoremap("<leader>lg", ":LazyGit<cr>", { desc = "Open [L]azy[G]it" })
+
 -- Map MaximizerToggle (szw/vim-maximizer) to leader-m
 nnoremap("<leader>m", ":MaximizerToggle<cr>")
 
