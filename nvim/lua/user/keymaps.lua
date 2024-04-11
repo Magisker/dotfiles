@@ -376,6 +376,7 @@ xnoremap(">>", function()
 end)
 
 -- Terminal --
+nnoremap("<leader>t", ":term<cr>", { desc = "Open Terminal" })
 -- Enter normal mode while in a terminal
 tnoremap("<esc>", [[<C-\><C-n>]])
 tnoremap("jj", [[<C-\><C-n>]])
